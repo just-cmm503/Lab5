@@ -4,7 +4,7 @@
 </head>
 <body>
 <p>
-    <?php echo "Hello World " . "''Hello . World'' \n"; ?>
+    <?php echo "Hello World \r\n" . "''Hello . World'' \r\n"; ?>
     <?php echo 5 * 7; ?>
 </p>
 <?php
@@ -20,7 +20,7 @@ $Fname3 = "Berg";
 $Sname4 = "Sarah";
 $Fname4 = "Callum";
 
-echo "<table>";
+echo "<table border='hairline'> \r\n";
 echo "<tr><td>    Surname    </td><td>    FirstName  </td></tr> \r\n";
 echo "<tr><td>" . $Sname1 . "</td><td>" . $Fname1 . "</td></tr> \r\n";
 echo "<tr><td>" . $Sname2 . "</td><td>" . $Fname2 . "</td></tr> \r\n";
