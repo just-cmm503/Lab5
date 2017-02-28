@@ -21,10 +21,10 @@ $Sname4="Sarah";
 $Fname4="Callum";
 
 echo "<table>";
-    echo "<tr>".$Sname1."<td>".$Fname1."</td></tr>";
-echo "<tr>".$Sname2."<td>".$Fname2."</td></tr>";
-echo "<tr>".$Sname3."<td>".$Fname3."</td></tr>";
-echo "<tr>".$Sname4."<td>".$Fname4."</td></tr>";
+    echo "<tr><td>".$Sname1."</td><td>".$Fname1."</td></tr>";
+echo "<tr><td>".$Sname2."</td><td>".$Fname2."</td></tr>";
+echo "<tr><td>".$Sname3."</td><td>".$Fname3."</td></tr>";
+echo "<tr><td>".$Sname4."</td><td>".$Fname4."</td></tr>";
 echo "</table>";
 ?>
 </body>
