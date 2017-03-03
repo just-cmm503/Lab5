@@ -48,16 +48,10 @@ for ($i = 1; $i < 10; $i = $i + 1) {
     print "<p>Hello! $i</p>";
 }
 
-for ($i = 1;
-$i <= 30;
-$i = $i + 1) {
-if (fmod($i, 2) == 0) {
-print "<p>You can get Specs on day $i</p>";
-if (fmod($i, 3) == 0) {
-print "<p>You can get mug on day $i</p>";
-if (fmod($i, 4) == 0) {
-    print "<p>You can get Sussage rolls on day $i</p>";
-
+for ($i = 1; $i <31; $i = $i + 1) {
+    if (fmod($i, 2) == 0) {print "<p>You can get Specs on day $i</p>";}
+    if (fmod($i, 3) == 0) {print "<p>You can get mug on day $i</p>";}
+    if (fmod($i, 4) == 0) {print "<p>You can get Sussage rolls on day $i</p>";}
 }
 
 
