@@ -32,7 +32,7 @@ if($name1="John"){print "Weldon one <br> \r\n";} else {"Nice try 1 <br> \r\n";}
 if($name1="Mark"){print "Weldon two <br> \r\n";} else {"Nice try 2 <br> \r\n";}
 if($name1="Colin"){print "Weldon three <br> \r\n";} else {"Nice try 3 <br> \r\n";}
 
-for ($i = 1; $i < 10; $i ++) { echo "<p>Hello!</p>"; }
+for ($i = 1; $i < 10; $i ++) { echo "<p>Hello! $i</p>"; }
 
 
 ?>
