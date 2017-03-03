@@ -34,7 +34,7 @@ if($name1="Colin"){print "Weldon three <br> \r\n";} else {"Nice try 3 <br> \r\n"
 
 for ($i = 1; $i < 10; $i=$i+1) { print "<p>Hello! $i</p>"; }
 
-print "<br> 5\2 <br> HaHa";
+print "<br> 50\2 <br> HaHa";
 
 
 ?>
